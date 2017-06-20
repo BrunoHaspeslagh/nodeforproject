@@ -4,3 +4,4 @@ RUN npm install xml2js
 RUN npm install neo4j-driver
 #webserverport
 EXPOSE 80
+CMD ["/bin/bash"]
