@@ -1,4 +1,5 @@
 FROM node:4
+RUN npm install npm@latest -g
 RUN npm install express
 RUN npm install xml2js
 RUN npm install neo4j-driver
